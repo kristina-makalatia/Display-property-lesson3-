@@ -1,0 +1,66 @@
+body{
+	padding-left: 30px;
+}
+.logo img{
+	width: 100px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.navigation{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:40px;
+}
+.nav-li{
+	display: inline-block;
+	margin-right:30px;
+}
+.blue-box{
+	background-color: blue;
+	color:white;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	padding: 15px;
+}
+.article-image{
+	display: inline-block;
+	margin-right:40px;
+	vertical-align: top;
+}
+.article-box{
+	display: inline-block;
+	width: 929px;
+/*	vertical-align: top;*/
+}
+.article-title{
+	text-align: center;
+}
+.article-wraper{
+	margin-top: 30px;
+}
+.article-p{
+	margin-top: 15px;
+}
+.red{
+	color: red;
+}
+/*.title{
+	display: none;
+}*/
+.map{
+	width:874px;
+	height: 450px;
+}
+.social{
+	height: 30px;
+	display: inline-block;
+}
+.divider{
+	display: inline-block;
+	background-color: #3D58A6;
+	height: 30px;
+	width: 2px;
+	margin: 0 30px;
+}
