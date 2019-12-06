@@ -1,6 +1,12 @@
-body{
-	padding-left: 30px;
+/*base classes*/
+.container{
+	width: 1170px;
+	margin:0 auto;
 }
+.d-inline-block{
+	display: inline-block;
+}
+/*header*/
 .logo img{
 	width: 100px;
 	display: inline-block;
@@ -15,44 +21,48 @@ body{
 	display: inline-block;
 	margin-right:30px;
 }
-.blue-box{
-	background-color: blue;
-	color:white;
-	display: inline-block;
-	width: 50px;
-	height: 50px;
-	font-size: 25px;
-	padding: 15px;
+.nav-a{
+	font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
-.article-image{
-	display: inline-block;
-	margin-right:40px;
-	vertical-align: top;
+/*End header*/
+
+/*Start banner*/
+
+/*end banner*/
+
+/*start article-section*/
+.title-test{
+	font-family: "ALK Life", sans-serif;
 }
-.article-box{
-	display: inline-block;
-	width: 929px;
-/*	vertical-align: top;*/
+.box{
+	background-color: #F2F2F2;
+	width:570px;
+	padding: 15px 10px 40px 10px;
+}
+.box-margin{
+	margin-right:30px;
+}
+.wraper{
+	margin-top:32px;
 }
 .article-title{
-	text-align: center;
+	text-transform: uppercase;
 }
-.article-wraper{
-	margin-top: 30px;
+.article-title a{
+	text-transform: lowercase;
 }
-.article-p{
-	margin-top: 15px;
+.p-article{
+	width:345px;
+	vertical-align: middle;
+	font-size: 20px;
+	line-height: 28px;
 }
-.red{
-	color: red;
+.article-image{
+	vertical-align: middle;
+	height:130px;
+	margin-right:60px;
 }
-/*.title{
-	display: none;
-}*/
-.map{
-	width:874px;
-	height: 450px;
-}
+/*end article-section*/
 .social{
 	height: 30px;
 	display: inline-block;
@@ -63,4 +73,24 @@ body{
 	height: 30px;
 	width: 2px;
 	margin: 0 30px;
+}
+
+
+/*contact-page*/
+.grey-bg{
+	background-color: #E6E6E6;
+	padding: 45px 0;
+}
+.right-block iframe{
+	width:869px;
+	height:460px;
+	vertical-align: top;
+}
+.left-block{
+	vertical-align: top;
+}
+.test-p{
+	font-family: 'Sulphur Point', sans-serif;
+	font-weight: 700;
+	font-style: italic;
 }
